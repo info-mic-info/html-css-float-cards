@@ -10,14 +10,14 @@ header {
 }
 
 .container {
-    width: 400px;
+    width: 800px;
     margin: 0;
     background-color: orange;
 }
 /* ROW */
 
 .row {
-    width: 300px;
+    width: 600px;
     background-color: green;
 }
 
@@ -31,10 +31,6 @@ header {
     
 }
 
-.float {
-    float: left;
-    
-}
 
 .clearfix::after {
     content:"";
@@ -42,3 +38,6 @@ header {
     clear: both;
 }
 
+.container .img {
+    float: left;
+}
