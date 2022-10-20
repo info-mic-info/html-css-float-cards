@@ -23,14 +23,12 @@ header {
 
 .card {
     background-color: lightgreen;
+
 }
 
 .content {
-    background-color: aquamarine;
-    
-    
+    background-color: aquamarine;  
 }
-
 
 .clearfix::after {
     content:"";
@@ -38,6 +36,6 @@ header {
     clear: both;
 }
 
-.container .img {
+.card .img {
     float: left;
 }
