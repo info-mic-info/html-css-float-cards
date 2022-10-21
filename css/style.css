@@ -6,6 +6,8 @@
     
 }
 
+/* HEADER  */
+
 h1 {
     color: rgba(255, 0, 64, 0.792);
     text-align: center;
@@ -17,6 +19,48 @@ p {
     text-align: center;
 }
 
+   
+  /* FIX */
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+/* CARD */
+
+.container {
+    width: 75%;
+    margin: 20px auto;  
+}
+
+.row {
+    background-color: green;
+    display: inline;   
+}
+
+.row .col {
+    float: left;
+    width: 33%;
+}
+
+.card {
+    background-color:
+    margin-right: 10%;
+    padding: 10px;
+}
+
+.card img {
+    float: left;
+    width: 20%;    
+}
+
+.content {
+    background-color: black;
+    width: 80%; 
+    float: right;
+}
 
 h2 {
 color: white;
@@ -33,46 +77,7 @@ a {
 
 
 
-.container {
-    width: 80%;
-    margin: 20px auto;
-    
-}
-/* ROW */
 
-.row {
-    background-color: green;
-    display: inline;  
-   
-}
 
-.card {
-    background-color:
-    margin-right: 10%;
-    padding: 10px;
-    
 
-}
 
-.content {
-    background-color: black;
-    width: 890; 
-}
-
-.clearfix::after {
-    content:"";
-    display: table;
-    clear: both;
-}
-
-.card img {
-    float: left;
-    width: 20%;
-    
-    
-}
-
-.col {
-    float: left;
-    width: 33%;
-}
